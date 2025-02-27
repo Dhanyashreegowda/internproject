@@ -1,0 +1,68 @@
+
+.full_footer {
+    background-color: black;
+    height: 500px;
+    
+    padding: 20px;
+}
+.top_p{
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing */
+    
+}
+.small_align{
+    text-align: justify;
+}
+.img_img{
+    height: 84px;
+    width: 280px;
+}
+.first_card, .second_card, .third_card, .fourth_card {
+    flex: 1;  /* Distributes equal width */
+    padding: 10px; /* Optional: Adds spacing inside each card */
+    text-align: left; /* Aligns text properly */
+    margin: 10px;
+}
+
+/* Optional: Adjust list styling */
+.list_style {
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+/* Header text color */
+.head {
+    color: grey;
+
+}
+.color_hr{
+    color: white;
+}
+
+.icn_size svg {
+    font-size: 40px; /* Adjust size as needed */
+    color: #74C0FC;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 50%; /* Makes it circular */
+}
+
+.icn_size:hover svg {
+    transform: rotate(360deg);  /* Spins the icon on hover */
+}
+.last_text {
+    display: flex;  /* Aligns text in a row */
+    justify-content: center;  /* Centers the content */
+    gap: 20px;  /* Adds space between items */
+    margin-top: 10px; /* Optional: Adds some spacing from the top */
+    color: white; /* Optional: Ensures visibility */
+}
+.hr_line {
+    border-top: 1px solid white !important; /* Makes the divider white */
+}
+.all_logos{
+    display: flex;  /* Aligns text in a row */
+    justify-content: center;  /* Centers the content */
+    gap: 20px;  /* Adds space between items */
+    margin-top: 10px; /* Optional: Adds some spacing from the top */
+}

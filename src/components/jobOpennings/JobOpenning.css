@@ -1,0 +1,32 @@
+.whole_thing{
+    margin: 50px;
+    padding: 20px;
+}
+.scrolled_content{
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.bgbg{
+    background-image: url('../../assests/images/accor_back.jpg');
+}
+.outerr {
+    position: relative; /* Ensure this is relative for absolute positioning inside */
+    width: 100%;
+    max-width: 650px; /* Adjust as needed */
+    height: auto;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.inner_content {
+    position: sticky;
+    bottom: 0; /* Keeps it at the bottom of the image */
+    left: 0;
+    width: 100%; /* Ensures it covers the bottom part of the image */
+    color: white;
+    padding: 10px;
+    z-index: 10;
+    text-align: left;
+}

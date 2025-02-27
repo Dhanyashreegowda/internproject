@@ -1,0 +1,48 @@
+.all_cards {
+    transform: translateX(160px);
+}
+
+.EachCard {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.EachCard:hover {
+    transform: scale(1.05);
+}
+
+.below_align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card_content{
+    display: flex;
+    background: linear-gradient(to right, #92fe9d, #00c9ff);
+    align-items: center; /* Align items vertically */
+    gap: 8px; /* Adds spacing between the circle and name */
+    height: 100px;
+}
+
+
+.circle {
+margin: 10px;
+width: 45px; /* Adjust the size of the circle */
+height: 45px;
+background-color: white; /* Light gray background */
+color: lightskyblue;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%; /* Makes it a circle */
+font-weight: bold;
+font-size: 16px;
+}
+
+.name {
+font-size: 25px;
+font-weight: normal;
+color: white;
+}

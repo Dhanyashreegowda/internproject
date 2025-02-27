@@ -1,0 +1,11 @@
+/* Full-screen centering */
+.location_wrapper {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    margin: 30px;
+}
+
+/* Center the text and style the box */
+.location_content {
+    text-align: center;      /* Center text inside */
+   }

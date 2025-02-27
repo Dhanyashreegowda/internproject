@@ -1,0 +1,17 @@
+.CHeading{
+    background:linear-gradient(to left, #0052d4, #65c7f7, #9cecfb);
+    text-align: center;
+    padding: 5px;
+    height: 130px;
+}
+
+.slogan{
+    color: white;
+    font-size: 25px;
+}
+
+.contact_button{
+    border-radius: 0;
+    font-size: 20px;
+    color: blue;
+}

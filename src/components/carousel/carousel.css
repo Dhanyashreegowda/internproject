@@ -1,0 +1,64 @@
+.carouselCaption{
+  position: absolute; /* Moves relative to the nearest positioned ancestor (or viewport if none) */
+    top: 190px;
+    left: 350px;
+}
+.carouselCard {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.carouselCard:hover {
+  background-color: #007bff !important;
+  color: white; /* Optional: Change text color for better contrast */
+}
+
+.carouselCard:hover .firsttext,
+.carouselCard:hover b,
+.carouselCard:hover .secondtext {
+  color: white !important; /* Ensures text is visible on the blue background */
+}
+
+.carouselCard {
+  left: 40px;
+  top: -23px;
+  height: 98px;
+  width: 428.79px;
+  padding: 20px;
+  border-radius: 0;
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Aligns content vertically */
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}               
+
+.insideCard {
+  display: flex; /* Allows content inside to be flexible */
+  align-items: center;
+  gap: 5px; /* Adds some spacing between elements */
+  flex-direction: column; /* Stack text elements */
+  text-align: center; /* Center-align text */
+}
+
+.insideCardFirst {
+  flex: 1; /* Allows the first section to take up available space */
+  font-size: 18px;
+  
+}
+
+.insideCardSecond {
+  flex-shrink: 0; /* Prevents it from shrinking */
+  margin-left: 119px; /* Adds spacing between the two spans */
+  font-size: medium;
+}
+
+.firsttext{
+ color: #727171;
+}
+.secondtext{
+  color: #0c5397;
+  margin-top: -10px;
+  
+}

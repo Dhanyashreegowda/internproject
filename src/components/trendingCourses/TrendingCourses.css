@@ -1,0 +1,52 @@
+.WholeCards{
+    margin: 20px;
+}
+.EachCard .ant-card-body {
+    padding: 0 !important; /* Remove Ant Design's default padding */
+}
+.CoursesHeading {
+    margin-left: 40px; /* Adjust the value as needed */
+}
+
+.CardContent{
+    text-align: justify;
+}
+
+.EachCard{
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+}
+.replace_part1{
+    display: flex;
+    background: linear-gradient(to right, #fc6767, #ec008c);
+    color: white;
+    padding: 10px;
+}
+.replace_part2{
+    display: flex;
+    background: linear-gradient(to left, #f2c94c, #f2994a);
+    color: white;
+    padding: 10px;
+}
+.replace_part3{
+    display: flex;
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    color: white;
+    padding: 10px;
+}
+.replace_part4{
+    display: flex;
+    background: linear-gradient(to right, #92fe9d, #00c9ff);
+    color: white;
+    padding: 10px;
+
+}
+.padding_part{
+    padding: 10px;
+}
+.icoo {
+    font-size: 60px; /* Adjust this to match h3 size */
+    vertical-align: middle; /* Align icon with text */
+    margin-right: 8px; /* Add space between icon and text */
+}

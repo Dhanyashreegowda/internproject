@@ -1,0 +1,68 @@
+.same_foot {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    z-index: 1000;
+    height: 80px;
+}
+.go_up {
+    position: fixed;
+    bottom: 90px; /* Adjust this value to move it up */
+    right: 20px; /* Adjust this for proper RHS positioning */
+    font-size: 50px; /* Increase size if needed */
+    color:orangered;
+    cursor: pointer;
+    z-index: 1001; /* Ensure it's above other elements */
+}
+
+.go_up:hover {
+    color: orange; /* Change color on hover */
+}
+
+
+.same_line {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.size{
+    font-size: 40px;
+    color: white;
+}
+.same_line:hover {
+    color: orange; /* Change text color on hover */
+}
+
+.vertical_button {
+    position: fixed;
+    right: 20px; /* Position it to the right */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    z-index: 1001;
+}
+
+
+.vertical_button button {
+    writing-mode: vertical-rl; /* Rotate text vertically */
+    transform: rotate(180deg); /* Rotate to make text readable */
+    font-size: 16px;
+    padding: 60px 10px; /* Adjust padding for button shape */
+    background-color: #ff5722; /* Custom button color (orange) */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 8px; /* Smooth button corners */
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow for better visibility */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.vertical_button button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+    transform: rotate(180deg) scale(1.1); /* Slight zoom effect */
+}
